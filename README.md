@@ -39,7 +39,7 @@ This project utilizes GitHub Actions for automating various tasks such as runnin
 - Navigate to *GitHub -> Settings -> Developer settings -> Personal access tokens -> Tokens (classic)* and generate new token (classic) with repo permissions.
 - Navigate to *GitHub -> Repository -> Settings -> Secrets and variables -> Actions* and add a new repository secret **TOKEN** with value from previous step.
 
-### run_test.yml file
+### run_tests.yml file
 
 The following jobs are configured in run_test.yml file:
 
